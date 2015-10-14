@@ -1,3 +1,13 @@
+/***************************************************************************
+ * Do What THe Fuck You Want To Public Licence 2                           *
+ *                                                                         *
+ * JavaScript implementation by Piotr Rochala (http://rocha.la/)           *
+ * Based on C# work of Serge Meunier (http://www.smokycogs.com/)           *
+ *                                                                         *
+ * Check this code in action on http://rocha.la/javascript-plasma-fractal  *
+ *                                                                         *
+ **************************************************************************/
+
 function $plasma(configuration){
 	var roughness, totalSize;
 	var width, height, canvas, ctx;
