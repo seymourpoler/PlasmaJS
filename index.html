@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Plasma - HTML 5 Canvas and JavaScript demo</title>
+      <script src="plasma.v2.js"></script>
+   </head>
+   <body>
+      <canvas id="canvas"></canvas>
+   </body>
+   <script>
+		var types = { PLASMA: 0, CLOUD: 1 };
+		var plasma = new $plasma({
+			width : 100,
+			height : 100,
+			rough : 10,
+			plasmaType : types.CLOUD,
+			canvasId : 'canvas'
+		});
+		plasma.draw();
+	  </script>
+</html>
